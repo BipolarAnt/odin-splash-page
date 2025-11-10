@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .top {
     background-color: #1F2937;
     display: flex;
@@ -60,4 +64,73 @@
     width: 400px;
     height: 200px;
     text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.infobody {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 100px;
+}
+
+.infobox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+}
+
+.infoimage {
+    height: 130px;
+    width: 130px;
+    border-radius: 10px;
+    outline: #3882F6 solid 3px;
+}
+
+.infotext {
+    word-wrap: break-word;
+    padding: 5px;
+    width: 130px;
+    text-align: center;
+    color: gray;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    display: flex;
+}
+
+.thor-quote {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    padding: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quote {
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.attribution {
+    text-align: right;
+    font-weight: 700;
+    font-size: 24px;
 }
