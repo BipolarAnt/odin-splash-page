@@ -171,3 +171,14 @@ body {
     margin-left: 200px;
     font-weight: 700;
 }
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    padding: 25px;
+    justify-content: center;
+}
+
+.copyright {
+    color: #E5E7EB;
+}
